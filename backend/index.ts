@@ -10,7 +10,9 @@ import roomRoutes from './routes/rooms';
 dotenv.config();
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173' })); 
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://prudhiviraj-workspace.netlify.app']
+}));
 app.use(express.json());
 
 app.use('/api/bookings', bookingRoutes);
