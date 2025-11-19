@@ -45,10 +45,6 @@ MongoDB Atlas account
 
 Create a .env file inside /backend:
 
-PORT=8080
-MONGO_URI=mongodb+srv://bookingPricing:securePassword123@cluster0.n6syfxk.mongodb.net/bookingDB?retryWrites=true&w=majority&appName=Cluster0
-
-
 3. Install & Run Backend
 cd backend
 npm install
